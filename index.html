@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyAware | AI-Driven Flight Safety</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">SkyAware</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="download.html" class="download-nav">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="headline">Intelligence in the Cockpit.<br>Safety in the Skies.</h1>
+                <p class="sub-headline">SkyAware integrates advanced AI with real-time aviation data to redefine situational awareness for the modern pilot.</p>
+                <div class="cta-group">
+                    <a href="features.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-mockup fade-in">
+                <div class="mockup-carousel-wrapper">
+                    <button class="mockup-arrow left-arrow" aria-label="Previous Video" id="hero-prev-btn">
+                        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <button class="mockup-arrow right-arrow" aria-label="Next Video" id="hero-next-btn">
+                        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                    <div class="mockup-track" id="hero-mockup-track">
+                        <div class="mockup-container video-container">
+                            <video class="mockup-video" id="hero-video" src="Final Version.mp4" autoplay loop muted playsinline></video>
+                            <div class="video-controls">
+                                <button class="control-btn play-pause-btn" id="play-pause-btn">
+                                    <svg class="pause-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/></svg>
+                                    <svg class="play-icon" style="display:none;" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/></svg>
+                                </button>
+                                <div class="progress-bar-container" id="progress-bar-container">
+                                    <div class="progress-bar" id="progress-bar"></div>
+                                </div>
+                                <button class="control-btn volume-btn" id="volume-btn">
+                                    <svg class="volume-on-icon" style="display:none;" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.026 8c0 2.07-.84 3.946-2.198 5.303l.708.707z"/><path d="M10.121 12.596A6.48 6.48 0 0 0 12.026 8a6.48 6.48 0 0 0-1.905-4.596l-.707.707A5.48 5.48 0 0 1 11.026 8a5.48 5.48 0 0 1-1.611 3.889l.706.707z"/><path d="M8.707 11.182A4.5 4.5 0 0 0 10.026 8a4.5 4.5 0 0 0-1.319-3.182L8 5.525A3.5 3.5 0 0 1 9.026 8 3.5 3.5 0 0 1 8 10.475l.707.707zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"/></svg>
+                                    <svg class="volume-off-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/></svg>
+                                </button>
+                                <button class="control-btn speed-btn" id="speed-btn">1x</button>
+                                <button class="control-btn fullscreen-btn" id="fullscreen-btn">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mockup-container video-container">
+                            <video class="mockup-video" id="hero-video-2" src="SkyAware Introducing video.mov" autoplay loop muted playsinline></video>
+                            <div class="video-controls">
+                                <button class="control-btn play-pause-btn" id="play-pause-btn-2">
+                                    <svg class="pause-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/></svg>
+                                    <svg class="play-icon" style="display:none;" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/></svg>
+                                </button>
+                                <div class="progress-bar-container" id="progress-bar-container-2">
+                                    <div class="progress-bar" id="progress-bar-2"></div>
+                                </div>
+                                <button class="control-btn volume-btn" id="volume-btn-2">
+                                    <svg class="volume-on-icon" style="display:none;" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.026 8c0 2.07-.84 3.946-2.198 5.303l.708.707z"/><path d="M10.121 12.596A6.48 6.48 0 0 0 12.026 8a6.48 6.48 0 0 0-1.905-4.596l-.707.707A5.48 5.48 0 0 1 11.026 8a5.48 5.48 0 0 1-1.611 3.889l.706.707z"/><path d="M8.707 11.182A4.5 4.5 0 0 0 10.026 8a4.5 4.5 0 0 0-1.319-3.182L8 5.525A3.5 3.5 0 0 1 9.026 8 3.5 3.5 0 0 1 8 10.475l.707.707zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"/></svg>
+                                    <svg class="volume-off-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/></svg>
+                                </button>
+                                <button class="control-btn speed-btn" id="speed-btn-2">1x</button>
+                                <button class="control-btn fullscreen-btn" id="fullscreen-btn-2">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-nav-pill" id="hero-mockup-nav">
+                    <div class="nav-dot active" data-index="0"></div>
+                    <div class="nav-dot" data-index="1"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SkyAware Project. Developed by an Aspiring Aviator.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

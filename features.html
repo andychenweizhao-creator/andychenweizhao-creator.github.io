@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | SkyAware</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">SkyAware</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="download.html" class="download-nav">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="features-hero">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h1 class="section-title">Elevating Aviation Safety</h1>
+                <p class="section-subtitle">A seamless, AI-driven workflow from takeoff to landing.</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path><path d="M12 2a10 10 0 0 1 10 10h-10V2z" opacity=".3"></path><path d="M12 12L2.8 2.2"></path><path d="M16.2 7.8l5.7 5.7"></path><circle cx="12" cy="12" r="10"></circle></svg>
+                    </div>
+                    <h3>Gemini AI Integration</h3>
+                    <p>Leveraging the power of the Gemini API to process vast streams of flight data, providing intelligent summaries and safety recommendations in plain language.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19c.6 0 1.1-.4 1.2-1 .3-1.6-1-3-2.7-3-1.4 0-2.5 1.1-2.5 2.5a2.5 2.5 0 0 1 5 0Z"></path><path d="M12 21c-3.3 0-6-2.7-6-6 0-1.5.6-2.9 1.5-4C5 10 3 8 3 5.5A2.5 2.5 0 0 1 5.5 3c2 0 3.7 1.4 4.3 3.3.7-.2 1.4-.3 2.2-.3 4.4 0 8 3.6 8 8s-3.6 8-8 8Z"></path></svg>
+                    </div>
+                    <h3>Weather & Terrain Analysis</h3>
+                    <p>Real-world weather patterns meet high-resolution terrain data. SkyAware predicts potential hazards before they become critical, ensuring a safer flight path.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h3>Simulation Validated</h3>
+                    <p>Rigorously tested in Microsoft Flight Simulator 2024 and VATSIM networks to ensure logic reliability and navigation accuracy in high-fidelity environments.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="narrative-flow">
+        <!-- Section 1: Homepage -->
+        <section class="narrative-section">
+            <div class="container alternate">
+                <div class="narrative-text fade-in">
+                    <span class="step-label">01. The Hub</span>
+                    <h2>Command Center Dashboard</h2>
+                    <p>The SkyAware homepage serves as your mission-control hub, providing an instantaneous high-level overview of your aircraft's status and surrounding environment. Designed for high-pressure environments, the interface minimizes cognitive load by surfacing only the most critical safety data through intelligent UI layering. Pilots can access all core functions via streamlined navigation controls that prioritize essential flight information.</p>
+                </div>
+                <div class="narrative-image fade-in">
+                    <div class="apple-carousel-wrapper">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="home-screen-2.png" alt="SkyAware Dashboard Safety Score">
+
+                                    <!-- Interactive Hotspots -->
+                                    <div class="hotspot pos-location">
+                                        <div class="hotspot-tooltip">Current Position</div>
+                                    </div>
+                                    <div class="hotspot pos-search">
+                                        <div class="hotspot-tooltip">Airport Search</div>
+                                    </div>
+                                    <div class="hotspot pos-nearest">
+                                        <div class="hotspot-tooltip">Get nearest airport</div>
+                                    </div>
+                                    <div class="hotspot pos-score">
+                                        <div class="hotspot-tooltip">Safety Score</div>
+                                    </div>
+                                    <div class="hotspot pos-weather">
+                                        <div class="hotspot-tooltip">Weather Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="home-screen-1.png" alt="SkyAware Dashboard Insights">
+                                    <div class="hotspot pos-suggestion">
+                                        <div class="hotspot-tooltip">Flying Suggestion</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nav-pill">
+                            <div class="nav-dot active"></div>
+                            <div class="nav-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Preflight -->
+        <section class="narrative-section">
+            <div class="container alternate reverse">
+                <div class="narrative-text fade-in">
+                    <span class="step-label">02. Planning</span>
+                    <h2>Intelligent Preflight</h2>
+                    <p>Preparation is the foundation of safety. SkyAware automates the heavy lifting of flight planning by aggregating live METAR and TAF reports to provide a predictive weather outlook for your entire route. The system cross-references aircraft performance data with real-time weight and balance calculations, ensuring every departure is within safe operational limits before you even step onto the tarmac.</p>
+                </div>
+                <div class="narrative-image fade-in">
+                    <div class="apple-carousel-wrapper">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-22 at 1.23.20 PM.png" alt="Route Planning Map">
+                                    <div class="hotspot pos-route">
+                                        <div class="hotspot-tooltip">Dynamic Route Path</div>
+                                    </div>
+                                    <div class="hotspot pos-airspace">
+                                        <div class="hotspot-tooltip">Active Airspace Alerts</div>
+                                    </div>
+                                    <div class="hotspot pos-inflight-toggle">
+                                        <div class="hotspot-tooltip">Enter In-flight Mode</div>
+                                    </div>
+                                    <div class="hotspot pos-upload">
+                                        <div class="hotspot-tooltip">Upload flight plan</div>
+                                    </div>
+                                    <div class="hotspot pos-layers">
+                                        <div class="hotspot-tooltip">Choose map layer</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-22 at 1.23.54 PM.png" alt="AI Co-Pilot Analysis">
+                                    <div class="hotspot pos-briefing">
+                                        <div class="hotspot-tooltip">AI Safety Briefing</div>
+                                    </div>
+                                    <div class="hotspot pos-weather-ai">
+                                        <div class="hotspot-tooltip">Real-time AI weather analysis</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nav-pill">
+                            <div class="nav-dot active"></div>
+                            <div class="nav-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Inflight -->
+        <section class="narrative-section">
+            <div class="container alternate">
+                <div class="narrative-text fade-in">
+                    <span class="step-label">03. Enroute</span>
+                    <h2>Dynamic Inflight Support</h2>
+                    <p>Once airborne, SkyAware transforms into a proactive safety companion. The dynamic moving map tracks your progress with surgical precision, while integrated ADS-B traffic visualization keeps you aware of surrounding aircraft. Real-time airspace alerts and automated hazard detection work silently in the background, providing a digital safety net that enhances situational awareness in all flight phases.</p>
+                </div>
+                <div class="narrative-image fade-in">
+                    <div class="apple-carousel-wrapper">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-22 at 5.03.26 PM.png" alt="Inflight Navigation">
+                                    <div class="hotspot pos-traffic">
+                                        <div class="hotspot-tooltip">AI Emergency Assistant</div>
+                                    </div>
+                                    <div class="hotspot pos-altitude">
+                                        <div class="hotspot-tooltip">Flying Performance Monitoring</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nav-pill">
+                            <div class="nav-dot active"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3.5: Emergency Mode -->
+        <section class="narrative-section emergency-mode">
+            <div class="container alternate reverse">
+                <div class="narrative-text fade-in">
+                    <span class="step-label emergency-label">Critical Support</span>
+                    <h2 class="emergency-title">Emergency Response Mode</h2>
+                    <p>When seconds matter, SkyAware's Emergency Mode provides instant, high-contrast guidance to the nearest suitable landing site. The AI automatically parses engine data and glide performance to calculate an optimal recovery path, while simultaneously preparing emergency frequency presets and airport diagrams. This focused interface strips away non-essential data, ensuring that the pilot remains calm and directed during critical system failures.</p>
+                </div>
+                <div class="narrative-image fade-in">
+                    <div class="apple-carousel-wrapper">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-22 at 5.04.20 PM.png" alt="Emergency Mode Dashboard">
+                                    <div class="hotspot pos-emergency-title">
+                                        <div class="hotspot-tooltip">Airport to divert</div>
+                                    </div>
+                                    <div class="hotspot pos-emergency-stats-bar">
+                                        <div class="hotspot-tooltip">Real-time divert direction</div>
+                                    </div>
+                                    <div class="hotspot pos-emergency-path">
+                                        <div class="hotspot-tooltip">Predicted divert path</div>
+                                    </div>
+                                    <div class="hotspot pos-emergency-map">
+                                        <div class="hotspot-tooltip">Divert destination</div>
+                                    </div>
+                                    <div class="hotspot pos-emergency-checklist">
+                                        <div class="hotspot-tooltip">Critical Action Checklist</div>
+                                    </div>
+                                    <div class="hotspot pos-emergency-copilot">
+                                        <div class="hotspot-tooltip">AI-Co-pilot Support</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-22 at 5.04.52 PM.png" alt="Emergency Systems Status">
+                                    <div class="hotspot pos-emergency-distance">
+                                        <div class="hotspot-tooltip">AI analysis for current emergency</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nav-pill">
+                            <div class="nav-dot active"></div>
+                            <div class="nav-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Weather -->
+        <section class="narrative-section">
+            <div class="container alternate reverse">
+                <div class="narrative-text fade-in">
+                    <span class="step-label">04. Environment</span>
+                    <h2>Next-Gen Weather Intelligence</h2>
+                    <p>Never fly into the unknown again. SkyAware's multi-layer weather engine overlays high-resolution radar and satellite data with active Sigmet and Airmet warnings. By analyzing atmospheric trends, the app predicts shifting conditions along your flight path, offering actionable insights that help pilots make informed "go/no-go" decisions with confidence and clarity.</p>
+                </div>
+                <div class="narrative-image fade-in">
+                    <div class="apple-carousel-wrapper">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-22 at 5.37.21 PM.png" alt="Weather Radar Analysis">
+                                    <div class="hotspot pos-weather-condition">
+                                        <div class="hotspot-tooltip">Main weather conditions</div>
+                                    </div>
+                                    <div class="hotspot pos-weather-location">
+                                        <div class="hotspot-tooltip">Current position</div>
+                                    </div>
+                                    <div class="hotspot pos-weather-altitude">
+                                        <div class="hotspot-tooltip">Choose altitude mode based on altitude or sea level</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="interactive-image-container">
+                                    <img src="Screenshot 2026-04-23 at 3.12.42 PM.png" alt="Precipitation Forecasting">
+                                    <div class="hotspot pos-weather-detail">
+                                        <div class="hotspot-tooltip">Weather detail</div>
+                                    </div>
+                                    <div class="hotspot pos-weather-bg">
+                                        <div class="hotspot-tooltip">Background color based on weather</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nav-pill">
+                            <div class="nav-dot active"></div>
+                            <div class="nav-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SkyAware Project. Developed by an Aspiring Aviator.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Structure (Retained for consistency if needed by script) -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="modal-close" class="modal-close">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    Back
+                </button>
+                <div class="modal-image-placeholder">
+                    <img id="modal-image" src="image.png" alt="Feature Visualization">
+                </div>
+            </div>
+            <div class="modal-details">
+                <h2 id="modal-title"></h2>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
