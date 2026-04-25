@@ -244,6 +244,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const containers = heroMockupTrack.querySelectorAll('.mockup-container');
         let currentIndex = 0;
 
+        // Initialize videos on load
+        containers.forEach((container, i) => {
+            const vid = container.querySelector('video');
+            if (vid) {
+                if (i === currentIndex) {
+                    vid.play().catch(e => console.log("Autoplay prevented"));
+                } else {
+                    vid.pause();
+                }
+            }
+        });
+
         const switchToIndex = (index) => {
             // Validate index
             if (index < 0 || index >= dots.length) return;
@@ -261,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const vid = container.querySelector('video');
                 if (vid) {
                     if (i === currentIndex) {
-                        vid.play();
+                        vid.play().catch(e => console.log("Play prevented"));
                     } else {
                         vid.pause();
                     }
