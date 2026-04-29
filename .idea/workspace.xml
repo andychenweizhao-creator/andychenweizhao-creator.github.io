@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9210b7fc-5e91-4363-be1c-2aeb2873f698" name="Changes" comment="Final Version (except without image of the self-introduction page)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;andychenweizhao-creator&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/andychenweizhao-creator/andychenweizhao-creator.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;2d44fa07-c89a-40e4-8765-4c386eaeb887&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/script.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3Cgv3LFTLU9BMUjPYwjcKhifGIj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "templates.modelproviders.configurable",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="${TEAM_ID}" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9210b7fc-5e91-4363-be1c-2aeb2873f698" name="Changes" comment="" />
+      <created>1776819827245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776819827245</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New Website">
+      <option name="closed" value="true" />
+      <created>1776820234485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776820234485</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New Website fixed Pages">
+      <option name="closed" value="true" />
+      <created>1776821009233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776821009233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Website fixed Pages and add Homepage tab">
+      <option name="closed" value="true" />
+      <created>1776821709627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776821709627</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Website fixed Pages and add Homepage tab 1">
+      <option name="closed" value="true" />
+      <created>1776823519869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776823519869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New Website fixed Pages and add Homepage tab 2">
+      <option name="closed" value="true" />
+      <created>1776878923246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776878923246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Import image in progress">
+      <option name="closed" value="true" />
+      <created>1776905824210</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776905824210</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Import image in progress">
+      <option name="closed" value="true" />
+      <created>1776905929077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776905929077</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Import image in progress 5">
+      <option name="closed" value="true" />
+      <created>1776989142918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776989142918</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Import image in progress 5">
+      <option name="closed" value="true" />
+      <created>1776989687313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776989687313</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Import all image">
+      <option name="closed" value="true" />
+      <created>1776994760110</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776994760110</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Final Version (except without image of the self-introduction page)">
+      <option name="closed" value="true" />
+      <created>1777077428412</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777077428412</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Final Version (except without image of the self-introduction page)">
+      <option name="closed" value="true" />
+      <created>1777077856793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777077856793</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Final Version (except without image of the self-introduction page)">
+      <option name="closed" value="true" />
+      <created>1777078894079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777078894079</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Website" />
+    <MESSAGE value="New Website fixed Pages" />
+    <MESSAGE value="New Website fixed Pages and add Homepage tab" />
+    <MESSAGE value="New Website fixed Pages and add Homepage tab 1" />
+    <MESSAGE value="New Website fixed Pages and add Homepage tab 2" />
+    <MESSAGE value="Import image in progress" />
+    <MESSAGE value="Import image in progress 5" />
+    <MESSAGE value="Import all image" />
+    <MESSAGE value="Update website files without large mov video" />
+    <MESSAGE value="Final Version (except without image of the self-introduction page)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version (except without image of the self-introduction page)" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
